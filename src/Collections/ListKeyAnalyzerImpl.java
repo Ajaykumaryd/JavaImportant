@@ -13,10 +13,14 @@ public class ListKeyAnalyzerImpl implements KeyAnalyzer{
         list=new ArrayList<>();
     }
 
+    public void Show(){
+        System.out.println("print show");
+    }
+
 
     @Override
     public void storeKeyword(String keyword) {
-     list.add(keyword);
+        list.add(keyword);
     }
 
     @Override

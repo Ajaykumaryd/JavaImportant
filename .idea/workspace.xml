@@ -7,7 +7,9 @@
     <list default="true" id="4bee2d0d-94fd-447e-9c11-fff759e48f9d" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/Collections/LinkedHashSetAnalyzer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Collections/SetKeyAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EqualsHashcode/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collections.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Collections/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Collections/ListKeyAnalyzerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/ListKeyAnalyzerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/singletonDesignPattern/Logging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singletonDesignPattern/Logging.java" afterDir="false" />
@@ -56,7 +58,7 @@
   <component name="RunManager" selected="Application.Student">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Collections.Client" />
-      <module name="Collections" />
+      <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Collections.*" />
@@ -69,7 +71,7 @@
     </configuration>
     <configuration name="Logging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singletonDesignPattern.Logging" />
-      <module name="Collections" />
+      <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="singletonDesignPattern.*" />
@@ -82,14 +84,14 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Collections" />
+      <module name="JavaLearn" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EqualsHashcode.Student" />
-      <module name="Collections" />
+      <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="EqualsHashcode.*" />
@@ -102,7 +104,7 @@
     </configuration>
     <configuration name="prac1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Collections.prac1" />
-      <module name="Collections" />
+      <module name="JavaLearn" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Collections.*" />

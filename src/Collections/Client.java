@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Client {
     public static void main(String[] args) {
-//        ListKeyAnalyzerImpl a = new ListKeyAnalyzerImpl();//->can use all methods of listKeyAnalyzersimpl
+        KeyAnalyzer a = new ListKeyAnalyzerImpl();//->can use all methods of listKeyAnalyzersimpl
 //        a.storeKeyword("cristiano");
 //        a.storeKeyword("messi");
 //        a.storeKeyword("ramos");
@@ -26,11 +26,17 @@ public class Client {
 //        System.out.println(k.getAllKeywords());
 
 //        linkedHashset to maintain insertion orders
-        KeyAnalyzer k=new LinkedHashSetAnalyzer();
-        k.storeKeyword("cristiano");
-        k.storeKeyword("messi");
-        k.storeKeyword("ramos");
-        System.out.println(k.getAllKeywords());
+//        KeyAnalyzer k=new LinkedHashSetAnalyzer();
+//        k.storeKeyword("cristiano");
+//        k.storeKeyword("messi");
+//        k.storeKeyword("ramos");
+//        System.out.println(k.getAllKeywords());
+
+        List<Integer>integerList=new ArrayList<>();
+
+
+
+        
 
     }
 
