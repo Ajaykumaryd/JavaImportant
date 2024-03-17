@@ -8,7 +8,8 @@ public class ListKeyAnalyzerImpl implements KeyAnalyzer{
 
     List<String>list;
 
-    public ListKeyAnalyzerImpl(){    //lazyIniatilization
+    public ListKeyAnalyzerImpl()
+    {    //lazyIniatilization
         list=new ArrayList<>();
     }
 
@@ -22,4 +23,6 @@ public class ListKeyAnalyzerImpl implements KeyAnalyzer{
     public List<String> getAllKeywords() {
         return list;
     }
+
+
 }

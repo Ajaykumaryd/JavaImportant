@@ -1,16 +1,38 @@
 package Collections;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Client {
     public static void main(String[] args) {
-    ListKeyAnalyzerImpl a=new ListKeyAnalyzerImpl();//->can use all methods of listKeyAnalyzersimpl
-    a.storeKeyword("cristiano");
-    a.storeKeyword("messi");
-    a.storeKeyword("ramos");
-    System.out.println(a.getAllKeywords());
+//        ListKeyAnalyzerImpl a = new ListKeyAnalyzerImpl();//->can use all methods of listKeyAnalyzersimpl
+//        a.storeKeyword("cristiano");
+//        a.storeKeyword("messi");
+//        a.storeKeyword("ramos");
+//        a.storeKeyword("cristiano");
+//        a.storeKeyword("messi");
+//        a.storeKeyword("ramos");
+//        System.out.println(a.getAllKeywords());
 
-    KeyAnalyzer analyzer=new ListKeyAnalyzerImpl();//->can use all methods of keyanallyzer
-    a.storeKeyword("messi");
-        System.out.println();
+//    KeyAnalyzer analyzer=new ListKeyAnalyzerImpl();//->can use all methods of keyanalyzer
+//    analyzer.storeKeyword("messi");
+//    System.out.println();
+
+        //set used to remove duplicates
+//        KeyAnalyzer k = new SetKeyAnalyzer();
+//        k.storeKeyword("cristiano");
+//        k.storeKeyword("messi");
+//        k.storeKeyword("ramos");
+//        System.out.println(k.getAllKeywords());
+
+//        linkedHashset to maintain insertion orders
+        KeyAnalyzer k=new LinkedHashSetAnalyzer();
+        k.storeKeyword("cristiano");
+        k.storeKeyword("messi");
+        k.storeKeyword("ramos");
+        System.out.println(k.getAllKeywords());
 
     }
+
+
 }

@@ -22,13 +22,13 @@ public class Logging {
     }
 
     public static void main(String[] args) {
-//        Logging logging = Logging.getInstance();->laze initialization
-//        logging.printMsg("This is mine");
-////
-//        Logging logging1 = Logging.getInstance();
-//        logging1.printMsg("This is mine 2");
+        Logging logging = Logging.getInstance();//->lazy initialization
+        logging.printMsg("This is mine");
 
-//        Logging logging2=Logging.instance;->early initializations
+        Logging logging1 = Logging.getInstance();
+        logging1.printMsg("This is mine 2");
+
+//        Logging logging2=Logging.instance;//->//early initializations
 
     }
 
